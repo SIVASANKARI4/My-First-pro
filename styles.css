@@ -1,0 +1,150 @@
+.container {
+  background-image: url("images/greenery.jpg");
+  background-size: cover;
+  height: 600px;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+.place {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #150572;
+  text-align: center;
+  padding: 10px 24px;
+  margin: 30px 50px;
+}
+ul {
+  list-style-type: none;
+}
+#temp,
+#c-link,
+#f-link {
+  color: #000066;
+  font-size: 15px;
+}
+.date {
+  color: white;
+  font-size: 15px;
+}
+h1 {
+  font-size: 40px;
+  color: #000066;
+}
+form {
+  margin: 80px 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 40%;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+}
+input[type="button"],
+input[type="submit"] {
+  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+  border-color: #150a27;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 1px 2px;
+  cursor: pointer;
+  font-size: 20;
+}
+
+.numberCircle {
+  width: 100px;
+  height: 60px;
+  border-radius: 70%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  border: 2px solid #db345e;
+  color: white;
+  background: #fa8705;
+  margin: 50px 20px;
+  z-index: 1;
+  transform: translateY(-50%);
+  line-height: 50px;
+}
+.res-circle {
+  /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+  width: 100%;
+  border-radius: 50%;
+  border: aqua solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 0px;
+  margin-top: 10px;
+
+  /* (B) BACKGROUND COLOR */
+  background: rebeccapurple;
+  opacity: 0.7;
+
+  /* (C) NECESSARY TO POSITION TEXT BLOCK */
+  line-height: 1em;
+  position: relative;
+}
+.res-circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 10%;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+
+  /* (E2) THE FONT - NOT REALLY IMPORTANT */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+.change {
+  color: black;
+  opacity: 0.9;
+}
+.frown {
+  color: blue;
+  font-size: 30px;
+}
+.square {
+  width: 75%;
+  height: 75%;
+  margin: 25px;
+  background: rgb(83, 179, 83);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20%;
+  text-align: center;
+  border: aqua solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.card-group {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 10px;
+  width: 800px;
+  text-align: center;
+  opacity: 0.8;
+}

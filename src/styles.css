@@ -1,5 +1,5 @@
 .container {
-  background-image: url("images/greenery.jpg");
+  background-image: url("../images/greenery.jpg");
   background-size: cover;
   height: 600px;
   max-width: 900px;
